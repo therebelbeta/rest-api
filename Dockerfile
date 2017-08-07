@@ -9,7 +9,8 @@ COPY . /src
 
 WORKDIR /src
 
-RUN npm rebuild --production
+RUN npm i -g node-pre-gyp
+RUN npm install
 
 EXPOSE 3000
 CMD ["node", "index.js"]

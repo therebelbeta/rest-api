@@ -4,7 +4,11 @@ This API queries a predefined set of inpatient prospective payment systems provi
 
 ## Quick Start
 
-To test in a deployed setting, visit [therebelrobot-test-api.now.sh/providers](https://therebelrobot-test-api.now.sh/providers)
+To test in a deployed setting, visit [therebelrobot-test-api.now.sh/providers](https://therebelrobot-test-api.now.sh/providers), test it out in [Insomnia](https://insomnia.rest/), or try it in `curl`:
+
+```sh
+curl -v https://therebelrobot-test-api.now.sh/providers\?state\=GA
+```
 
 To run locally:
 
